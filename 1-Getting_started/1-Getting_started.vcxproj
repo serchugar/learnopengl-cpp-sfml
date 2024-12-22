@@ -141,7 +141,7 @@
     <ClCompile Include="1-Creating_a_window\createWindow.cpp" />
     <ClCompile Include="2-Hello_window\helloWindow.cpp" />
     <ClCompile Include="3-Hello_triangle\helloTriangle.cpp" />
-    <ClCompile Include="3-Hello_triangle\exercise3_2.cpp" />
+    <ClCompile Include="3-Hello_triangle\exercise3_3.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -4,10 +4,10 @@
 
 int main() // main() if consoleApp. WinMain() if windows app
 {
-	//createWindow();	// Chapter 1
-	//helloWindow();	// Chapter 2
-	helloTriangle();	// Chapter 3
-	//exercise3_2();		// Chapter 3 exercise 2
+	//createWindow();	// Chapter 1.1
+	//helloWindow();	// Chapter 1.2
+	//helloTriangle();	// Chapter 1.3
+	exercise3_3();		// Chapter 1.3 exercise 2 & 3
 
 	return 0;
 }

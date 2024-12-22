@@ -36,7 +36,7 @@
     <ClCompile Include="3-Hello_triangle\helloTriangle.cpp">
       <Filter>3-Hello_triangle</Filter>
     </ClCompile>
-    <ClCompile Include="3-Hello_triangle\exercise3_2.cpp">
+    <ClCompile Include="3-Hello_triangle\exercise3_3.cpp">
       <Filter>3-Hello_triangle</Filter>
     </ClCompile>
     <ClCompile Include="..\sharedSource\glad.c">
