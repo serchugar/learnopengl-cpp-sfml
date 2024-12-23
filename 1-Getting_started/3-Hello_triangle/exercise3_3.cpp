@@ -191,11 +191,11 @@ bool processInput(sf::Window& window, bool& toggleWireframe)
 			glViewport(0, 0, event.size.width, event.size.height);
 
         else if (event.type == event.KeyPressed && event.key.code == sf::Keyboard::W)
-            {
-                toggleWireframe = !toggleWireframe;
-                toggleWireframe ?
-                    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE) : glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-            }
+        {
+			toggleWireframe = !toggleWireframe;
+			toggleWireframe ?
+				glPolygonMode(GL_FRONT_AND_BACK, GL_LINE) : glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+        }
 	}
 	return true;
 }

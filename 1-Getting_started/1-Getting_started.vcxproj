@@ -143,11 +143,18 @@
     <ClCompile Include="3-Hello_triangle\helloTriangle.cpp" />
     <ClCompile Include="3-Hello_triangle\exercise3_3.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="4-Shaders\shaders.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1-Creating_a_window\createWindow.hpp" />
     <ClInclude Include="2-Hello_window\helloWindow.hpp" />
     <ClInclude Include="3-Hello_triangle\helloTriangle.hpp" />
+    <ClInclude Include="4-Shaders\shaderClass.hpp" />
+    <ClInclude Include="4-Shaders\shaders.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="4-Shaders\fragmentShader.frag" />
+    <None Include="4-Shaders\vertexShader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

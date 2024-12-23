@@ -22,6 +22,9 @@
     <Filter Include="3-Hello_triangle">
       <UniqueIdentifier>{cbb0ab74-abbe-4a20-b2e4-c953b52fb569}</UniqueIdentifier>
     </Filter>
+    <Filter Include="4-Shaders">
+      <UniqueIdentifier>{8ec5eb50-e184-4fdf-a8b7-cd2e79085654}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -42,6 +45,9 @@
     <ClCompile Include="..\sharedSource\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="4-Shaders\shaders.cpp">
+      <Filter>4-Shaders</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1-Creating_a_window\createWindow.hpp">
@@ -53,5 +59,15 @@
     <ClInclude Include="3-Hello_triangle\helloTriangle.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="4-Shaders\shaders.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="4-Shaders\shaderClass.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="4-Shaders\vertexShader.vert" />
+    <None Include="4-Shaders\fragmentShader.frag" />
   </ItemGroup>
 </Project>
